@@ -1,0 +1,254 @@
+[
+  {
+    "id": "hicks-law",
+    "number": 1,
+    "category": "ux",
+    "title": "Hick's Law",
+    "definition": "The more options you show, the longer people take to choose.",
+    "applyIt": "Cut or group choices, and highlight one recommended path.",
+    "source": "W. E. Hick & R. Hyman, 1952–53"
+  },
+  {
+    "id": "fittss-law",
+    "number": 2,
+    "category": "ux",
+    "title": "Fitts's Law",
+    "definition": "Big targets that sit close by are faster and easier to hit.",
+    "applyIt": "Make primary buttons large and keep them within thumb reach.",
+    "source": "Paul Fitts, 1954"
+  },
+  {
+    "id": "jakobs-law",
+    "number": 3,
+    "category": "ux",
+    "title": "Jakob's Law",
+    "definition": "People spend most of their time on other products, so they expect yours to work the same way.",
+    "applyIt": "Reuse familiar patterns; save novelty for what makes you different.",
+    "source": "Jakob Nielsen, 2000"
+  },
+  {
+    "id": "millers-law",
+    "number": 4,
+    "category": "ux",
+    "title": "Miller's Law",
+    "definition": "Working memory can only hold a handful of things at once.",
+    "applyIt": "Chunk long info like codes, steps and menus into small groups.",
+    "source": "George A. Miller, 1956"
+  },
+  {
+    "id": "teslers-law",
+    "number": 5,
+    "category": "ux",
+    "title": "Tesler's Law",
+    "definition": "Every system has complexity that can't be removed, only moved.",
+    "applyIt": "Absorb complexity in the product so users don't have to.",
+    "source": "Larry Tesler, 1980s"
+  },
+  {
+    "id": "doherty-threshold",
+    "number": 6,
+    "category": "ux",
+    "title": "Doherty Threshold",
+    "definition": "People stay engaged when a system responds in under about 400 ms.",
+    "applyIt": "Respond instantly; use optimistic UI and skeletons when you can't.",
+    "source": "W. J. Doherty & A. J. Thadani, 1982"
+  },
+  {
+    "id": "peak-end-rule",
+    "number": 7,
+    "category": "ux",
+    "title": "Peak-End Rule",
+    "definition": "People judge an experience mostly by its most intense moment and how it ends.",
+    "applyIt": "Design a delightful peak and a strong finish, like a great success screen.",
+    "source": "D. Kahneman et al., 1993"
+  },
+  {
+    "id": "aesthetic-usability-effect",
+    "number": 8,
+    "category": "ux",
+    "title": "Aesthetic-Usability Effect",
+    "definition": "People see attractive designs as easier to use.",
+    "applyIt": "Polish matters, but don't let beauty hide real usability problems.",
+    "source": "M. Kurosu & K. Kashimura, 1995"
+  },
+  {
+    "id": "von-restorff-effect",
+    "number": 9,
+    "category": "ux",
+    "title": "Von Restorff Effect",
+    "definition": "The one item that stands out is the one people remember.",
+    "applyIt": "Make the key action visually distinct, and only one thing at a time.",
+    "source": "Hedwig von Restorff, 1933"
+  },
+  {
+    "id": "zeigarnik-effect",
+    "number": 10,
+    "category": "ux",
+    "title": "Zeigarnik Effect",
+    "definition": "Unfinished tasks stick in memory more than finished ones.",
+    "applyIt": "Show progress and what's left, like a profile completion bar.",
+    "source": "Bluma Zeigarnik, 1927"
+  },
+  {
+    "id": "goal-gradient-effect",
+    "number": 11,
+    "category": "ux",
+    "title": "Goal-Gradient Effect",
+    "definition": "Motivation rises the closer people get to a goal.",
+    "applyIt": "Show progress clearly and give people a head start.",
+    "source": "Clark L. Hull, 1932"
+  },
+  {
+    "id": "serial-position-effect",
+    "number": 12,
+    "category": "ux",
+    "title": "Serial Position Effect",
+    "definition": "People best remember the first and last items in a list.",
+    "applyIt": "Put the most important items at the start and end of nav and lists.",
+    "source": "Hermann Ebbinghaus, 1885"
+  },
+  {
+    "id": "visibility-of-system-status",
+    "number": 13,
+    "category": "heur",
+    "title": "Visibility of System Status",
+    "definition": "Always keep people informed about what is happening, with timely feedback.",
+    "applyIt": "Show loading, saving and success states for every action.",
+    "source": "Jakob Nielsen, 1994"
+  },
+  {
+    "id": "match-the-real-world",
+    "number": 14,
+    "category": "heur",
+    "title": "Match the Real World",
+    "definition": "Speak the user's language, not internal jargon.",
+    "applyIt": "Use the words and concepts your users already use.",
+    "source": "Jakob Nielsen, 1994"
+  },
+  {
+    "id": "user-control-and-freedom",
+    "number": 15,
+    "category": "heur",
+    "title": "User Control and Freedom",
+    "definition": "People make mistakes and need a clearly marked way out.",
+    "applyIt": "Offer undo, cancel and back wherever it matters.",
+    "source": "Jakob Nielsen, 1994"
+  },
+  {
+    "id": "error-prevention",
+    "number": 16,
+    "category": "heur",
+    "title": "Error Prevention",
+    "definition": "Better than a good error message is stopping the error from happening.",
+    "applyIt": "Use constraints, smart defaults and confirmation for risky actions.",
+    "source": "Jakob Nielsen, 1994"
+  },
+  {
+    "id": "recognition-over-recall",
+    "number": 17,
+    "category": "heur",
+    "title": "Recognition Over Recall",
+    "definition": "Make options visible so people don't have to remember them.",
+    "applyIt": "Show recent items, suggestions and visible labels.",
+    "source": "Jakob Nielsen, 1994"
+  },
+  {
+    "id": "law-of-proximity",
+    "number": 18,
+    "category": "gest",
+    "title": "Law of Proximity",
+    "definition": "Things placed close together are seen as a group.",
+    "applyIt": "Use spacing to group related fields and separate unrelated ones.",
+    "source": "Gestalt psychology, 1920s"
+  },
+  {
+    "id": "law-of-similarity",
+    "number": 19,
+    "category": "gest",
+    "title": "Law of Similarity",
+    "definition": "Things that look alike are seen as related.",
+    "applyIt": "Keep links, buttons and actions visually consistent.",
+    "source": "Gestalt psychology, 1920s"
+  },
+  {
+    "id": "law-of-common-region",
+    "number": 20,
+    "category": "gest",
+    "title": "Law of Common Region",
+    "definition": "Elements inside a shared boundary are seen as one group.",
+    "applyIt": "Use cards and containers to group related content.",
+    "source": "Stephen Palmer, 1992"
+  },
+  {
+    "id": "anchoring-bias",
+    "number": 21,
+    "category": "bias",
+    "title": "Anchoring Bias",
+    "definition": "The first number people see shapes how they judge everything after it.",
+    "applyIt": "Show the original or premium price first to frame value, honestly.",
+    "source": "A. Tversky & D. Kahneman, 1974"
+  },
+  {
+    "id": "loss-aversion",
+    "number": 22,
+    "category": "bias",
+    "title": "Loss Aversion",
+    "definition": "Losing something feels roughly twice as bad as gaining it feels good.",
+    "applyIt": "Frame features by what users keep or protect, never with dark patterns.",
+    "source": "D. Kahneman & A. Tversky, 1979"
+  },
+  {
+    "id": "social-proof",
+    "number": 23,
+    "category": "bias",
+    "title": "Social Proof",
+    "definition": "When unsure, people look at what others are doing.",
+    "applyIt": "Show real reviews and usage near the moment of decision.",
+    "source": "Robert Cialdini, 1984"
+  },
+  {
+    "id": "default-effect",
+    "number": 24,
+    "category": "bias",
+    "title": "Default Effect",
+    "definition": "Most people stick with whatever option is preselected.",
+    "applyIt": "Set defaults that are best for the user, not just for you.",
+    "source": "E. Johnson & D. Goldstein, 2003"
+  },
+  {
+    "id": "cognitive-load",
+    "number": 25,
+    "category": "psy",
+    "title": "Cognitive Load",
+    "definition": "Every task costs mental effort; too much and people give up.",
+    "applyIt": "Remove anything that doesn't help the user finish the task.",
+    "source": "John Sweller, 1988"
+  },
+  {
+    "id": "mental-models",
+    "number": 26,
+    "category": "psy",
+    "title": "Mental Models",
+    "definition": "People act on what they believe a system does, not on how it works.",
+    "applyIt": "Learn how users think it works, then design to match.",
+    "source": "Kenneth Craik, 1943"
+  },
+  {
+    "id": "fogg-behavior-model",
+    "number": 27,
+    "category": "psy",
+    "title": "Fogg Behavior Model",
+    "definition": "A behaviour happens when motivation, ability and a prompt meet.",
+    "applyIt": "Make the action easy and prompt it at the right moment.",
+    "source": "BJ Fogg, 2007"
+  },
+  {
+    "id": "flow",
+    "number": 28,
+    "category": "psy",
+    "title": "Flow",
+    "definition": "People do their best work when the challenge matches their skill.",
+    "applyIt": "Remove interruptions and ramp up difficulty gradually.",
+    "source": "Mihaly Csikszentmihalyi, 1990"
+  }
+]
