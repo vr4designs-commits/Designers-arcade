@@ -74,4 +74,8 @@ Or from the terminal: `npm i -g vercel`, then `vercel` (preview) and `vercel --p
 - **Phones:** opens the share sheet with the PNG (on iPhone, "Save Image" puts it in Photos).
 - **Desktop:** downloads the PNG straight away.
 
-Keyboard: Enter to start, 1–4 insert disks, E eject, Y / N answer, Space shuffle, D download, Esc exit.
+Keyboard: Enter to start, 1–4 insert disks, E eject, Y / N answer, Space shuffle, D download, Esc exit, M sound on/off.
+
+## Sound and haptics
+
+Every click and reveal has a chiptune sound (synthesised with Web Audio, no audio files) and a vibration on phones that support it. The speaker button in the top-right corner (or M) turns both off.

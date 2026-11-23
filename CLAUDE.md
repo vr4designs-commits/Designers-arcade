@@ -276,6 +276,14 @@ h1 { font-size: min(8.4cqw, calc(52px / var(--z))); }
 
 ---
 
+## Sound and haptics
+
+- Chiptune sound effects synthesised live with Web Audio (square/triangle voices + filtered noise), in the `FX` block near the top of `public/arcade.js`. No audio files, no library. Master volume is low (0.16).
+- Every click and reveal has a sound and a vibration pattern: coin-in + zoom whoosh on start, power-on arpeggio, joystick ratchet on shuffle, sparkle when a new principle or tool result appears, pick-up on I KNEW IT, fanfare on LEVEL UP, a soft two-note "hmm" on NEW TO ME, a victory jingle on game clear, eject / lift / clunk / drive-seek / boot for the disks, special move, swap, copy, saving / saved, a low buzz when something can't be done, and throttled ticks for sliders and typing.
+- The auto-advance after answering plays only the reveal, not the joystick sound.
+- Haptics: `navigator.vibrate` (Android). iOS has no vibrate API, so on iOS 18+ Safari a hidden `<input type="checkbox" switch>` is toggled inside the tap to get a light system tick (only within a user gesture, so delayed events like the disk landing don't tick on iPhone).
+- One toggle controls both: the pixel speaker button `#snd`, fixed top-right outside the zoomed world, or key **M**. Saved in localStorage `uxl-sound` (on by default). Audio unlocks on the first tap or key press.
+
 ## Download
 
 - Draw a 1080 × 1350 (4:5) PNG on a canvas: dithered sky, clouds, lime ground, the marquee with the loaded program's name, the purple cabinet filling the frame, the law on the navy screen (HUD, category, title, definition, APPLY IT box), the joystick, the yellow and red buttons and the drive (lip in the disk's colour) on the deck, and the source on the lower panel.
